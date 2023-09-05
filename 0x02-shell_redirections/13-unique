@@ -1,0 +1,2 @@
+#!/bin/bash
+sort | uniq -c | grep -fv '2' | cut -c9-
